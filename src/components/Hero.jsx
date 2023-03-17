@@ -1,8 +1,9 @@
 import React from "react";
+import image from "../assets/hero.jpg";
 
 const Hero = () => {
   return (
-    <div className=" h-screen bg-hero bg-cover bg-center relative">
+    <div className=" h-screen bg-cover bg-hero bg-center relative">
       <div className="bg-gradient-to-r from-violet-600 w-full to-indigo-600 opacity-80 absolute top-0 left-0 h-full">
         <div className="max-w-container mx-auto flex justify-center items-center h-full">
           <div className="max-w-md">
