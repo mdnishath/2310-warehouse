@@ -6,7 +6,7 @@ const Blogs = () => {
       <h3 className="text-center md:text-5xl text-2xl font-bold text-indigo-500">
         News & Media
       </h3>
-      <div className="grid md:grid-cols-3 mt-10">
+      <div className="grid md:grid-cols-3 mt-10 gap-4">
         <div className="card w-full bg-base-100 shadow-all">
           <img className="h-auto max-w-full" src="images/im1.jpg" />
 
