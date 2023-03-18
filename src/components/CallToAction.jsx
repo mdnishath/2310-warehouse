@@ -20,7 +20,7 @@ const CallToAction = ({ image, title, number }) => {
             </p>
             <div className="flex justify-center">
               <button className="btn bg-transparent hover:bg-transparent hover:border-white border-2 border-white">
-                Get Started
+                +1(502) 956-0427
               </button>
             </div>
           </div>
