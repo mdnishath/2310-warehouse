@@ -3,10 +3,12 @@ import React from "react";
 const Hero = () => {
   return (
     <div className=" h-screen bg-cover bg-hero bg-center relative">
-      <div className="bg-gradient-to-r from-violet-600 w-full to-indigo-600 opacity-80 absolute top-0 left-0 h-full">
-        <div className="max-w-container mx-auto flex justify-center items-center h-full">
+      <div className="bg-gradient-to-r from-violet-600 w-full to-indigo-600 opacity-80 absolute top-0 left-0 h-full z-[1]"></div>
+      <div className="absolute w-full z-[100] top-0 left-0 h-screen px-2">
+        {" "}
+        <div className="max-w-container mx-auto flex justify-center items-center h-full !z-[100]">
           <div className="max-w-md">
-            <h1 className="mb-5 text-2xl md:text-6xl font-bold bg-gradient-to-r text-white text-center">
+            <h1 className="mb-5 text-3xl md:text-6xl font-bold bg-gradient-to-r text-white text-center">
               Welcome to 2310 W Main
             </h1>
             <h2 className="font-bold text-lg md:text-2xl text-white uppercase text-center mt-2">

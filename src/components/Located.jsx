@@ -2,7 +2,7 @@ import React from "react";
 import { TfiLocationPin } from "react-icons/tfi";
 const Located = () => {
   return (
-    <div className="relative px-2 md:px-0">
+    <div className="relative px-2 md:px-2">
       <div className="max-w-container mx-auto flex flex-col md:flex-row py-10 gap-4 items-center ">
         <div className="w-full">
           <div className="flex justify-center md:justify-start gap-4 items-center">

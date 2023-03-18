@@ -6,7 +6,7 @@ const Mobile = () => {
   const dispatch = useDispatch();
   const { mobile, open } = useSelector((state) => state.mobile);
   return (
-    <div className="absolute w-3/4 top-0 right-0 bg-blue-500 h-screen shadow-lg">
+    <div className="absolute w-3/4 top-0 right-0 bg-indigo-500 h-screen shadow-lg">
       <ul className=" py-8 px-6 font-semibold text-white">
         <li>
           <a href="#">Home</a>
